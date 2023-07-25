@@ -2,9 +2,12 @@
 spring:
   datasource:
         driver-class-name: org.postgresql.Driver
-        username: postgres
-        password: 400bit
-        url: jdbc:postgresql://localhost/postgres
+        #username: postgres
+        username: gnckkbxadafjtz
+        #password: 400bit
+        password: 52190cca8d1b4a043215016a8814042a9e1521d3b7bd0e4b1d3c9ce170ab0934
+        #url: jdbc:postgresql://localhost/postgres
+        url: jdbc:postgresql://ec2-52-16-63-134.eu-west-1.compute.amazonaws.com:5432/d16cau3eai99bm
         platform: postgres
         initialization-mode: always
         continue-on-error: true
